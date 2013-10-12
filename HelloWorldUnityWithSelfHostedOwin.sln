@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldUnityWithSelfHostedOwin", "HelloWorldUnityWithSelfHostedOwin\HelloWorldUnityWithSelfHostedOwin.csproj", "{D2FF5C18-F697-4691-A68B-7937BC9FE479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldUnityWithSelfHostedOwin.Console", "HelloWorldUnityWithSelfHostedOwin.Console\HelloWorldUnityWithSelfHostedOwin.Console.csproj", "{52DC57FE-B84F-4834-9B39-23A1D1A24F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldUnityWithSelfHostedOwin.Business", "HelloWorldUnityWithSelfHostedOwin.Business\HelloWorldUnityWithSelfHostedOwin.Business.csproj", "{A3C9D0F8-27DB-4F2D-A91A-4D36F88C2DC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2FF5C18-F697-4691-A68B-7937BC9FE479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FF5C18-F697-4691-A68B-7937BC9FE479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FF5C18-F697-4691-A68B-7937BC9FE479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FF5C18-F697-4691-A68B-7937BC9FE479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DC57FE-B84F-4834-9B39-23A1D1A24F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DC57FE-B84F-4834-9B39-23A1D1A24F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DC57FE-B84F-4834-9B39-23A1D1A24F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DC57FE-B84F-4834-9B39-23A1D1A24F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C9D0F8-27DB-4F2D-A91A-4D36F88C2DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C9D0F8-27DB-4F2D-A91A-4D36F88C2DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C9D0F8-27DB-4F2D-A91A-4D36F88C2DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C9D0F8-27DB-4F2D-A91A-4D36F88C2DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
