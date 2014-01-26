@@ -7,6 +7,7 @@ using HelloWorldUnityWithSelfHostedOwin.Filters;
 namespace HelloWorldUnityWithSelfHostedOwin.Controllers
 {
     [MyCustomFilter]
+    [RoutePrefix("api")] 
     public class ValuesController : ApiController
     {
         private readonly IBusinessClass _businessClass;
@@ -18,7 +19,8 @@ namespace HelloWorldUnityWithSelfHostedOwin.Controllers
         }
 
         // GET api/values 
-       
+        [Route("values")]
+        [AcceptVerbs("GET")]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2", _businessClass.Hello()};
